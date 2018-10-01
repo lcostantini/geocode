@@ -6,6 +6,7 @@ gem 'cuba', '~> 3.9'
 gem 'json', '~> 2.1'
 
 group :development, :test do
+  gem 'dotenv', '~> 2.4', require: 'dotenv/load'
   gem 'pry', '~> 0.11'
 end
 
