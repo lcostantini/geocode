@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    clap (1.0.0)
+    coderay (1.1.2)
+    cuba (3.9.2)
+      rack (>= 1.6.0)
+    cutest (1.2.3)
+      clap
+    json (2.1.0)
+    method_source (0.9.0)
+    mocoso (1.2.3)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rack (2.0.5)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    vcr (4.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cuba (~> 3.9)
+  cutest (~> 1.2)
+  json (~> 2.1)
+  mocoso (~> 1.2)
+  pry (~> 0.11)
+  rack-test (~> 1.0)
+  vcr (~> 4.0)
+
+RUBY VERSION
+   ruby 2.5.0p0
+
+BUNDLED WITH
+   1.16.1
