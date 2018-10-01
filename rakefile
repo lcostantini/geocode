@@ -1,0 +1,10 @@
+task :test do
+  ENV['RACK_ENV'] = 'test'
+
+  if ARGV.count > 1
+    ENV['RUN_ALL_TESTS'] = 'false'
+    exec "cutest -r ./tests/test_helper.rb #{ARGV.last}"
+  else
+    exec 'cutest -r ./tests/test_helper.rb'
+  end
+end
