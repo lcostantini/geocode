@@ -9,4 +9,8 @@ VCR.configure do |config|
   config.hook_into :webmock
 end
 
+def json_parse(data)
+  JSON.parse(data, symbolize_names: true)
+end
+
 Dir['./tests/**/*.rb'].each { |rb| require rb } unless ENV['RUN_ALL_TESTS'] == 'false'

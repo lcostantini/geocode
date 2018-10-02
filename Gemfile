@@ -12,7 +12,6 @@ end
 
 group :test do
   gem 'cutest', '~> 1.2'
-  gem 'mocoso', '~> 1.2'
   gem 'rack-test', '~> 1.0'
   gem 'vcr', '~> 4.0'
   gem 'webmock', '~> 3.4'
